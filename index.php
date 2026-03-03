@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shield Node Inspector</title>
+    <title>_Inspector</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body { font-family: 'Segoe UI', sans-serif; background: #0b0e14; color: #cfd8dc; margin: 0; padding: 20px; }
@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
 <div class="container">
-    <h1><i class="fas fa-shield-alt"></i> NODE_INSPECTOR</h1>
+    <h1><i class="fas fa-shield-alt"></i> _INSPECTOR</h1>
     <div class="grid">
         <div class="card"><span class="label"><i class="fas fa-network-wired"></i> Connection</span><span class="value"><?php echo $ip; ?></span><span class="sub"><?php echo "$city, $country"; ?></span></div>
         <div class="card"><span class="label"><i class="fas fa-laptop"></i> Operating System</span><span class="value" id="os-name">...</span><span class="sub" id="os-platform">...</span></div>
