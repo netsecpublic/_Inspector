@@ -1,4 +1,4 @@
-# 🛡️_Inspector (V1.0.1)
+# 🛡️_inspector (V1.0.1)
 
 A visitor fingerprinting tool designed for **Ubuntu** environments. This tool extracts hardware, display, and network identity data without relying on external third-party APIs.
 
